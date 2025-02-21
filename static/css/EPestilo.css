@@ -1,0 +1,268 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#000;
+}
+
+.logo img{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 100px;
+}
+
+header{
+    background-image:url('../img/FundoEpisodeos.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px
+
+}
+
+
+.vermelho1,.vermelho2 {
+    background-color: red;
+    width: 10px;
+    height: 55px;
+    color: #f31111;
+}
+
+.vermelho1{
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 450px;
+}
+
+.vermelho2{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 390px;
+}
+
+
+
+nav{
+    top: 100px;
+    right: 500px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 590px;
+}
+
+nav::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus {
+    color: white;
+}
+
+
+
+nav ul li ul li a {
+    background: transparent;
+    color: #555;
+    border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+    background: #eee;
+    color: #111;
+}
+
+nav ul li:hover .submenus{
+    display: block;
+    flex-direction: column;
+}
+
+nav ul li:hover{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.submenus {
+    display: none;
+    z-index: 40;
+    flex-direction: column;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
+.submenus li a {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow:0 3px 15px rgba(0,0,0,.15);
+    gap: 70px;
+}
+
+.c14 img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+
+.ep{
+    top: 400px;
+    left: 100px;
+    margin: 60px auto ;
+}
+
+.ep h2{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #fff;
+}
+
+.conteudo{
+    margin: 60px;
+}
+
+.conteudo iframe{
+    width: 300px;
+
+}
+
+.temporada h3{
+    color: #ffffff;
+}
+
+
+.epizodios{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ep1 h3{
+    color: #888888;
+}
+
+.ep2 h3{
+    color: #888888;
+}
+
+.ep3 h3{
+    color: #888888;
+}
+
+.ep4 h3{
+    color: #888888;
+}
+
+.epizodios2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.epizodios3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+
+.temporada2 h3{
+    color: #ffffff;
+    margin: 60px auto ;
+}
+
+.temporada3 h3{
+    color: #ffffff;
+    margin: 60px auto ;
+}
+
+p{
+    color: #888888;
+    font-family: "Arial Rounded MT Bold", cursive  ;
+}
+
+hr{
+    width: 100%;
+}
+
+/*Rodapé*/
+
+footer{
+    background-color: #fbf9f9;
+    height: 200px;
+    align-items: center;
+    margin: 0px;
+}
+
+.CobrakaiRodapeItens{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    /*background-color: #0c0c0c;*/
+}
+
+.CobrakaiRodapeItens h3{
+    color: #0c0c0c;
+    text-align: center;
+}
+
+.CobrakaiRodapeItens img{
+    width: 100px;
+    border-radius: 40px;
+}

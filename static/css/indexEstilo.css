@@ -1,0 +1,444 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo img{
+    position: absolute;
+    top: 60px;
+    left: 1350px;
+    width: 100px;
+}
+
+header{
+    background-image: url('../img/Fundo.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+
+header p{
+    color: white;
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    width: 500px;
+}
+
+.p{
+    color: white;
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    width: 500px;
+}
+
+.vermelho1,.vermelho2 {
+    background-color: red;
+    width: 10px;
+    height: 55px;
+    color: #f31111;
+}
+
+.vermelho1{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.vermelho2{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+
+/*.Menus{*/
+/*    align-items: center;*/
+/*    flex-direction: row;*/
+/*    margin-top: 100px;*/
+/*    margin-left: 100px;*/
+/*    display: flex;*/
+/*    position: absolute;*/
+/*}*/
+
+nav{
+    top: 100px;
+    left: 100px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 590px;
+}
+
+nav::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus {
+    color: white;
+}
+
+/*nav ul li a:not(:only-child)::after {*/
+/*    padding-left: 4px;*/
+/*    content: ' ▾';*/
+/*}*/
+
+/*nav ul li ul li {*/
+/*    min-width: 190px;*/
+/*}*/
+
+nav ul li ul li a {
+    background: transparent;
+    color: #555;
+    border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+    background: #eee;
+    color: #111;
+}
+
+nav ul li:hover .submenus{
+    display: block;
+    flex-direction: column;
+}
+
+nav ul li:hover{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.submenus {
+    display: none;
+    z-index: 40;
+    flex-direction: column;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
+.submenus li a {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow:0 3px 15px rgba(0,0,0,.15);
+    gap: 70px;
+}
+
+                                    /*Sobre Cobra Kai*/
+
+.SobreCobraKai{
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+}
+
+.SobreCobraKai h1{
+    color: #0c0c0c;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 500px;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+}
+
+.SobreCobraKaiimagem img{
+    width: 500px;
+    border-radius: 40px;
+}
+
+.SobreCobraKaitextos{
+    width: 900px;
+    margin: 50px auto;
+    background: #ecdc91;
+    border-radius: 40px;
+}
+
+.SobreCobraKaitextos p{
+    margin: 20px;
+}
+
+.SobreCobraKaiH1{
+    margin-top: 40px;
+}
+
+                                /*Elenco*/
+
+.CobraKaiElenco{
+    background-color: #a2d1ec;
+    height: 800px;
+}
+
+.Elenco{
+    margin-top: 80px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.Atores img{
+    width: 200px;
+    height: 250px;
+    border-radius: 40px;
+}
+
+.Atores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 270px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.NomeAtor{
+    font-weight: bold;
+}
+
+.CobraKaiH2{
+    display: flex;
+    margin-left: 650px;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.CobraKaiH2 h2{
+    font-size: 50px;
+    color: #316d8e;
+}
+
+.CobraKaiH2 img{
+    width: 50px;
+    height: 50px;
+}
+
+/* From Uiverse.io by BHARGAVPATEL1244 */
+button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #316d8e;
+    color: ghostwhite;
+}
+
+button span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+button:hover span {
+    color: black;
+}
+
+button::before,
+button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+button::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+button:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.BotaoElenco{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 650px;
+}
+
+.BotaoElenco a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+                            /*Rodapé*/
+
+footer{
+    background-color: #0c0c0c;
+    height: 200px;
+    align-items: center;
+    margin: 0px;
+}
+
+.CobrakaiRodapeItens{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    /*background-color: #0c0c0c;*/
+}
+
+.CobrakaiRodapeItens h3{
+    color: ghostwhite;
+    text-align: center;
+}
+
+.CobrakaiRodapeItens img{
+    width: 100px;
+}
+
+@media (max-width: 728px){
+    header{
+        width: 100%;
+    }
+    .logo img{
+        position: relative;
+        left: 10px;
+        width: 80px;
+        top: 10px;
+    }
+    nav{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+
+    .vermelho1{
+        display: block;
+        position: absolute;
+        top: 116px;
+        left: 5px;
+    }
+
+    .vermelho2{
+        display: block;
+        position: absolute;
+        top: 116px;
+        left: 615px;
+    }
+    .CobraKaiElenco{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .CobraKaiH2{
+        margin-left: 150px;
+    }
+
+    .SobreCobraKai{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .SobreCobraKai h1{
+        margin-left: 10px;
+    }
+
+    .SobreCobraKaitextos{
+        width: 700px;
+    }
+
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Elenco{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #a2d1ec;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .CobraKaiElenco{
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 50px;
+    }
+
+    .BotaoElenco{
+        margin-left: 50px;
+    }
+}

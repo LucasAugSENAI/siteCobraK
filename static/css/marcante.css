@@ -1,0 +1,365 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#000;
+}
+
+header{
+    background-image:url('../img/fundomarcante2.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px
+
+}
+
+
+.vermelho1,.vermelho2 {
+    background-color: red;
+    width: 10px;
+    height: 55px;
+    color: #f31111;
+}
+
+.vermelho1{
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 450px;
+}
+
+.vermelho2{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 390px;
+}
+
+
+
+nav{
+    top: 100px;
+    right: 500px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 590px;
+}
+
+nav::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus {
+    color: white;
+}
+
+
+
+nav ul li ul li a {
+    background: transparent;
+    color: #555;
+    border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+    background: #eee;
+    color: #111;
+}
+
+nav ul li:hover .submenus{
+    display: block;
+    flex-direction: column;
+}
+
+nav ul li:hover{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.submenus {
+    display: none;
+    z-index: 40;
+    flex-direction: column;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
+.submenus li a {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow:0 3px 15px rgba(0,0,0,.15);
+    gap: 70px;
+}
+
+
+/*-----------------------------  CONTEUDO  ----------------------------- */
+
+.marcantes{
+    display: flex;
+    justify-content: center;
+}
+
+.marcantes h2{
+    color: floralwhite;
+    font-size: 35px;
+}
+
+.cenaMarcantes img{
+    width: 300px;
+}
+
+.cenaMarcantes{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.CM1 h3{
+    color: white;
+}
+
+.CM2 h3{
+    color: white;
+    margin-top: 223px;
+}
+
+
+.CM2 img{
+    height: 200px;
+    position: absolute;
+    left: 610px;
+}
+
+.CM3{
+    color: white;
+}
+
+.CM4{
+    position: relative;
+    right: 59px;
+}
+
+.CM4 img{
+    width: 300px;
+    height: 200px;
+}
+
+.CM4 h3{
+    color: white;
+}
+
+
+
+.CM5 img{
+    width: 300px;
+    height: 200px;
+}
+
+.CM5 h3{
+    color: white;
+}
+
+
+.CM6{
+    position: relative;
+    left: 140px;
+}
+
+.CM6 img{
+    width: 300px;
+    height: 200px;
+    /*position: absolute;*/
+    /*right: 130px;*/
+}
+
+.CM6 h3{
+    color: white;
+}
+
+
+.cenasMarcantes2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.basti h2{
+    color: floralwhite;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.errosG img{
+    width: 300px;
+}
+
+.errosG{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+}
+
+
+.errosG iframe{
+    height: 200px;
+}
+
+.erro1 img{
+    height: 200px;
+}
+
+
+.errosG2{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    margin-top: 60px;
+}
+
+.erro4 img{
+    width: 300px;
+    height: 200px;
+}
+
+.erro5 iframe{
+    width: 300px;
+    height: 200px;
+}
+
+
+.erro6 img{
+    width: 300px;
+    height: 200px;
+}
+
+.cena h3{
+    color: white;
+    font-size: 34px;
+}
+
+
+.cena{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cenaCK{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cenaCK img{
+    width: 300px;
+    height: 200px;
+}
+
+.Cenario{
+    padding: 20px;
+}
+
+.Bastidores{
+    padding: 20px;
+}
+
+.tri h3{
+    color: white;
+    font-size: 34px ;
+}
+
+.tri{
+    display: flex;
+    justify-content: center;
+}
+
+.music{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.music iframe{
+    height: 200px;
+    width: 300px;
+}
+
+.music1 h3{
+    color: white;
+}
+
+.music2 h3{
+    color: white;
+}
+
+footer{
+    background-color: #ffffff;
+    height: 200px;
+    align-items: center;
+    margin: 0px;
+}
+
+.CobrakaiRodapeItens{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    /*background-color: #0c0c0c;*/
+}
+
+.CobrakaiRodapeItens h3{
+    color: #0c0c0c;
+    text-align: center;
+}
+
+.CobrakaiRodapeItens img{
+    width: 100px;
+}
